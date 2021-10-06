@@ -1,0 +1,61 @@
+type in editor
+1.
+rce ->
+
+import React, { Component } from 'react'
+
+export class Counter extends Component {
+    render() {
+        return (
+            <div>
+
+            </div>
+        )
+    }
+}
+
+export default Counter
+
+
+2.
+rconst ->
+
+constructor(props) {
+    super(props)
+
+    this.state = {
+
+    }
+}
+
+
+3.
+rafce
+
+import React from 'react'
+
+const FunctionClick = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+export default FunctionClick
+
+
+
+4.
+rafc
+
+import React from 'react'
+
+export const FunctionClick = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+

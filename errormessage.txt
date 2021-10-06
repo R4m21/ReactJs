@@ -1,0 +1,48 @@
+commnd
+1. creact react appliocation
+ -> npx create-react-app "project_name"
+
+Error Meassage show them
+1.
+{
+C:\Users\Maniram\Desktop\react js for beginners\React>npx create-react-app my-app
+
+You are running `create-react-app` 4.0.2, which is behind the latest release (4.0.3).
+We no longer support global installation of Create React App.
+
+Please remove any global installs with one of the following commands:
+- npm uninstall -g create-react-app
+- yarn global remove create-react-app
+}
+
+solution --->>>>
+
+{
+I resolved the issue by following the below steps:
+
+Uninstall create-react-app v4.0.1:
+
+# for npm:
+npm uninstall -g create-react-app
+
+# for yarn:
+yarn global remove create-react-app
+You are not required to install create-react-app in your local directory, so if you do not want to do this then move to step 3. If you want to do this, install v4.0.2 without using the global flag (-g or --global) using the below command:
+
+# for npm:
+npm i create-react-app
+
+# for yarn:
+yarn add create-react-app
+You can now create a new React app using the below command:
+
+# for npx:
+npx create-react-app my-app
+
+# for npm:
+npm init react-app my-app
+
+# for yarn:
+yarn create react-app my-app
+
+}
