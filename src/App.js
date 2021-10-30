@@ -1,4 +1,5 @@
 import "./App.css";
+import Form from "./components/Form";
 // import NameList from './components/NameList'
 // import UserGreeting from "./components/UserGreeting";
 // import ParentComponent from "./components/ParentComponent";
@@ -71,7 +72,7 @@ function App() {
       {/* <h1 className='error'>Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
 
-      
+      <Form></Form>
     </div>
   );
 }
