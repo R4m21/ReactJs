@@ -151,6 +151,13 @@ Error Handling (2) -> static getDrivedStateFromError and  componentDidCatch.
 
 component mounting lifecycle (exicuting sequence)
 1. constructor
-2. static getDerivedStateFromProps
+2. static getDerivedStateFromProps(props,state)
 3. render
 4. componentDidMount
+
+component Updating lifecycle (exicuting sequence)
+1. static getDerivedStateFromProps(props,state)
+2. shouldComponentUpdate(nextProps,nextState)
+3. render()
+4. getSnapshotBeforeUpdate(prevProps,prevState)
+5. componentDidUpdate(prevProps,prevState,snapshot)
