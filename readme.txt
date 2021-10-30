@@ -161,3 +161,7 @@ component Updating lifecycle (exicuting sequence)
 3. render()
 4. getSnapshotBeforeUpdate(prevProps,prevState)
 5. componentDidUpdate(prevProps,prevState,snapshot)
+
+React Fragmentation
+1. <React.Fragment></React.Fragment>
+2. <></> // its limitation its does not use key attribute

@@ -18,7 +18,10 @@ import "./App.css";
 // import styles from './appStyles.module.css'
 
 // import LifecyleA from './components/LifecycleA'
-import LifecycleC from './components/LifecycleC'
+// import LifecycleC from './components/LifecycleC'
+// import FragmentDemo from './components/FragmentDemo'
+import Table from "./components/Table";
+
 function App() {
   return (
     <div className="App">
@@ -77,7 +80,12 @@ function App() {
       {/* <Form></Form> */}
 
       {/* <LifecycleA/> */}
-      <LifecycleC/>
+
+      {/* <LifecycleC/> */}
+
+      {/* <FragmentDemo/> */}
+
+      <Table/>
     </div>
   );
 }
