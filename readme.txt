@@ -147,3 +147,10 @@ Mounting (4) -> constructor, static getDrivedSateFromProps, render and component
 Updating (5) -> static getDrivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate, componentDidUpdate.
 Unmounting (1) -> componentWillUnmount.
 Error Handling (2) -> static getDrivedStateFromError and  componentDidCatch.
+
+
+component mounting lifecycle (exicuting sequence)
+1. constructor
+2. static getDerivedStateFromProps
+3. render
+4. componentDidMount

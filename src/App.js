@@ -1,5 +1,5 @@
 import "./App.css";
-import Form from "./components/Form";
+// import Form from "./components/Form";
 // import NameList from './components/NameList'
 // import UserGreeting from "./components/UserGreeting";
 // import ParentComponent from "./components/ParentComponent";
@@ -17,6 +17,7 @@ import Form from "./components/Form";
 // import "./appStyles.css"
 // import styles from './appStyles.module.css'
 
+import LifecyleA from './components/LifecycleA'
 function App() {
   return (
     <div className="App">
@@ -72,7 +73,9 @@ function App() {
       {/* <h1 className='error'>Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
 
-      <Form></Form>
+      {/* <Form></Form> */}
+
+      <LifecyleA></LifecyleA>
     </div>
   );
 }
