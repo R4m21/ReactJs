@@ -172,3 +172,6 @@ Pure Component
    3. if there is no diffrence, the component is not re-rendered - performance boost.
    4. it is a good idea to ensure that all the childen components are also pure to avoid unexpected behaviour.
    5. never mutate the state. always return a new objct that reflects the new state.
+
+Memo Componet
+its same as Pure Component but is use in fucntion component using React.memo()
