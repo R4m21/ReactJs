@@ -1,5 +1,6 @@
 import "./App.css";
-import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+// import ParentComp from "./components/ParentComp";
 // import PureComp from "./components/PureComp";
 // import Form from "./components/Form";
 // import NameList from './components/NameList'
@@ -91,7 +92,9 @@ function App() {
 
       {/* <PureComp/> */}
 
-      <ParentComp/>
+      {/* <ParentComp/> */}
+
+      <RefsDemo/>
     </div>
   );
 }
