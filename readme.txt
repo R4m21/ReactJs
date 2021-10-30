@@ -165,3 +165,10 @@ component Updating lifecycle (exicuting sequence)
 React Fragmentation
 1. <React.Fragment></React.Fragment>
 2. <></> // its limitation its does not use key attribute
+
+Pure Component
+-> 1. we can create a component by extending the PureComponent class.
+   2. a PureComponent implements the shouldCopmnentUpdate lifecycle method by performing a shallow camparison on the props and state of the component.
+   3. if there is no diffrence, the component is not re-rendered - performance boost.
+   4. it is a good idea to ensure that all the childen components are also pure to avoid unexpected behaviour.
+   5. never mutate the state. always return a new objct that reflects the new state.

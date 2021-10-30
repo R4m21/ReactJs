@@ -1,4 +1,6 @@
 import "./App.css";
+import ParentComp from "./components/ParentComp";
+// import PureComp from "./components/PureComp";
 // import Form from "./components/Form";
 // import NameList from './components/NameList'
 // import UserGreeting from "./components/UserGreeting";
@@ -20,7 +22,7 @@ import "./App.css";
 // import LifecyleA from './components/LifecycleA'
 // import LifecycleC from './components/LifecycleC'
 // import FragmentDemo from './components/FragmentDemo'
-import Table from "./components/Table";
+// import Table from "./components/Table";
 
 function App() {
   return (
@@ -85,7 +87,11 @@ function App() {
 
       {/* <FragmentDemo/> */}
 
-      <Table/>
+      {/* <Table/> */}
+
+      {/* <PureComp/> */}
+
+      <ParentComp/>
     </div>
   );
 }
