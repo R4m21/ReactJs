@@ -135,5 +135,15 @@ Styling React Components
 
 form ->
 Controlled components
- 
 
+
+Lifecycle Methods
+Mounting -> when an instance of a component is being created and inserted into the DOM.
+Updating -> When a component is being re-rendered as a rsult of changes to either its props or state.
+Unmounting -> When a component is being removed fom the DOM.
+Error Handling -> When there is an error during rendering, in a lifecycle method, or in the constructor of any child compoinent.
+
+Mounting (4) -> constructor, static getDrivedSateFromProps, render and componentDidMount.
+Updating (5) -> static getDrivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate, componentDidUpdate.
+Unmounting (1) -> componentWillUnmount.
+Error Handling (2) -> static getDrivedStateFromError and  componentDidCatch.
