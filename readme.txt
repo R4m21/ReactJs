@@ -183,3 +183,9 @@ Error Boundary
 -> a class component becomes an Error Boundary by defining either r both of getDerivedStateFromError and componentDidCatch lifecycle methods.
 -> the placement of the Error Boundary also matters as it controls if the entire app should have the fall-back UI or just the component causing the problem.
 -> provide a way to gracefully handle error in application code.
+
+Higher Order Components - HOC
+-> a pattern where a function takes a component as an argument and return a new component.
+-> const NewComponent = higherOrderComponent( originalComponent )
+-> const EnhancedComponent = higherOrderComponent( originalComponent )
+-> const IronMan = withSuit( TonyStark )
