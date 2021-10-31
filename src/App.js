@@ -1,5 +1,6 @@
 import "./App.css";
-import FRParentInput from "./components/FRParentInput";
+import PortalDemo from "./components/PortalDemo";
+// import FRParentInput from "./components/FRParentInput";
 // import FocusInput from "./components/FocusInput";
 // import RefsDemo from "./components/RefsDemo";
 // import ParentComp from "./components/ParentComp";
@@ -100,7 +101,9 @@ function App() {
 
       {/* <FocusInput/> */}
 
-      <FRParentInput/>
+      {/* <FRParentInput/> */}
+
+      <PortalDemo/>
     </div>
   );
 }
