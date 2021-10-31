@@ -33,10 +33,10 @@ class ClickCounter extends Component {
   // }
 
   render() {
-    const { count, incrementCount} = this.props;
+    const { count, incrementCount, name} = this.props;
     return (
       <button onClick={incrementCount}>
-        clicked {count} times
+        {name} clicked {count} times
       </button>
     );
   }

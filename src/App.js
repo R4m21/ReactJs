@@ -123,7 +123,7 @@ function App() {
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
 
-      <ClickCounter/>
+      <ClickCounter name='maniram'/>
 
       <HoverCounter/>
     </div>
