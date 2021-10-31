@@ -175,3 +175,11 @@ Pure Component
 
 Memo Componet
 its same as Pure Component but is use in fucntion component using React.memo()
+
+Error Boundary
+-> a class component that implements either one or both of the lifecycle methods getDerivedStateFromError or componentDidCatch becomes an error boundary.
+-> the static method getDerivedStateFromError method is used to render a fallback UI after an error is thrown and the componentDidCatch method is used to log the error information.
+-> error boundaries are React components that catch JavaScript error in their child component tree, log thse errors, and display a fall-back UI.
+-> a class component becomes an Error Boundary by defining either r both of getDerivedStateFromError and componentDidCatch lifecycle methods.
+-> the placement of the Error Boundary also matters as it controls if the entire app should have the fall-back UI or just the component causing the problem.
+-> provide a way to gracefully handle error in application code.
