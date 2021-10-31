@@ -1,6 +1,8 @@
 import "./App.css";
-import ErrorBoundary from "./components/ErrorBoundary";
-import Hero from "./components/Hero";
+import HoverCounter from "./components/HoverCounter";
+import ClickCounter from "./components/ClickCounter";
+// import ErrorBoundary from "./components/ErrorBoundary";
+// import Hero from "./components/Hero";
 // import PortalDemo from "./components/PortalDemo";
 // import FRParentInput from "./components/FRParentInput";
 // import FocusInput from "./components/FocusInput";
@@ -111,7 +113,7 @@ function App() {
         <Hero heroName="Superman" />
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -119,7 +121,11 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Joker" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+
+      <ClickCounter/>
+
+      <HoverCounter/>
     </div>
   );
 }
