@@ -1,5 +1,6 @@
 import "./App.css";
-import FocusInput from "./components/FocusInput";
+import FRParentInput from "./components/FRParentInput";
+// import FocusInput from "./components/FocusInput";
 // import RefsDemo from "./components/RefsDemo";
 // import ParentComp from "./components/ParentComp";
 // import PureComp from "./components/PureComp";
@@ -97,7 +98,9 @@ function App() {
 
       {/* <RefsDemo/> */}
 
-      <FocusInput/>
+      {/* <FocusInput/> */}
+
+      <FRParentInput/>
     </div>
   );
 }
