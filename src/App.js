@@ -1,6 +1,10 @@
 import "./App.css";
 import ClickCounterTwo from "./components/ClickCounterTwo";
+import Counter1 from "./components/Counter1";
 import HoverCounterTwo from "./components/HoverCounterTwo";
+// import ClickCounterTwo from "./components/ClickCounterTwo";
+// import HoverCounterTwo from "./components/HoverCounterTwo";
+// import User from "./components/User";
 // import HoverCounter from "./components/HoverCounter";
 // import ClickCounter from "./components/ClickCounter";
 // import ErrorBoundary from "./components/ErrorBoundary";
@@ -129,8 +133,14 @@ function App() {
 
       <HoverCounter/> */}
 
-      <ClickCounterTwo/>
-      <HoverCounterTwo/>
+      {/* <ClickCounterTwo/>
+      <HoverCounterTwo/> */}
+      {/* <User name="Maniram"/> */}
+      {/* <User name={()=>"Chauhan"}/> */}
+      {/* <User name={(isLoggedIn)=>isLoggedIn?"Maniram":"Guest"}/> */}
+      {/* <User render={(isLoggedIn)=>isLoggedIn?"Maniram":"Guest"}/> */}
+      <Counter1 render={(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
+      <Counter1 render={(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}/>
     </div>
   );
 }
