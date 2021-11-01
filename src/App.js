@@ -139,8 +139,10 @@ function App() {
       {/* <User name={()=>"Chauhan"}/> */}
       {/* <User name={(isLoggedIn)=>isLoggedIn?"Maniram":"Guest"}/> */}
       {/* <User render={(isLoggedIn)=>isLoggedIn?"Maniram":"Guest"}/> */}
-      <Counter1 render={(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
-      <Counter1 render={(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}/>
+      {/* <Counter1 render={(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
+      <Counter1 render={(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}/> */}
+      <Counter1>{(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1>
+      <Counter1>{(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1>
     </div>
   );
 }
