@@ -1,6 +1,8 @@
 import "./App.css";
-import HoverCounter from "./components/HoverCounter";
-import ClickCounter from "./components/ClickCounter";
+import ClickCounterTwo from "./components/ClickCounterTwo";
+import HoverCounterTwo from "./components/HoverCounterTwo";
+// import HoverCounter from "./components/HoverCounter";
+// import ClickCounter from "./components/ClickCounter";
 // import ErrorBoundary from "./components/ErrorBoundary";
 // import Hero from "./components/Hero";
 // import PortalDemo from "./components/PortalDemo";
@@ -122,10 +124,13 @@ function App() {
       <ErrorBoundary>
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
-
+{/*
       <ClickCounter name='maniram'/>
 
-      <HoverCounter/>
+      <HoverCounter/> */}
+
+      <ClickCounterTwo/>
+      <HoverCounterTwo/>
     </div>
   );
 }
