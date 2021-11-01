@@ -1,7 +1,9 @@
 import "./App.css";
-import ClickCounterTwo from "./components/ClickCounterTwo";
-import Counter1 from "./components/Counter1";
-import HoverCounterTwo from "./components/HoverCounterTwo";
+import ComponentC from "./components/ComponentC";
+import { UserProvider } from "./components/userContext";
+// import ClickCounterTwo from "./components/ClickCounterTwo";
+// import Counter1 from "./components/Counter1";
+// import HoverCounterTwo from "./components/HoverCounterTwo";
 // import ClickCounterTwo from "./components/ClickCounterTwo";
 // import HoverCounterTwo from "./components/HoverCounterTwo";
 // import User from "./components/User";
@@ -128,7 +130,7 @@ function App() {
       <ErrorBoundary>
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
-{/*
+      {/*
       <ClickCounter name='maniram'/>
 
       <HoverCounter/> */}
@@ -141,8 +143,11 @@ function App() {
       {/* <User render={(isLoggedIn)=>isLoggedIn?"Maniram":"Guest"}/> */}
       {/* <Counter1 render={(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
       <Counter1 render={(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}/> */}
-      <Counter1>{(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1>
-      <Counter1>{(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1>
+      {/* <Counter1>{(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1> */}
+      {/* <Counter1>{(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1> */}
+      <UserProvider value="maniram">
+        <ComponentC/>
+      </UserProvider>
     </div>
   );
 }

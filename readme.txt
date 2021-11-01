@@ -192,3 +192,9 @@ Higher Order Components - HOC
 
 Render props
 -> the term "render prop" refers to a technique for sharing code between React components using a prop whose value is a function.
+
+Context
+-> context provides a way to pass data through the component tree without having to pass props down manually at every level.
+ 1. create the context
+ 2. provide a context value
+ 3. consume the context value
