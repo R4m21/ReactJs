@@ -3,6 +3,7 @@ import ComponentF from './ComponentF'
 import UserContext from './userContext'
 
 class ComponentD extends Component {
+    static contextType = UserContext
     render() {
         return (
             <>
@@ -13,6 +14,6 @@ class ComponentD extends Component {
     }
 }
 
-ComponentD.contextType = UserContext
+
 
 export default ComponentD
