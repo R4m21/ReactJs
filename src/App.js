@@ -1,6 +1,7 @@
 import "./App.css";
+import PostForm from "./components/PostForm";
 // import ComponentC from "./components/ComponentC";
-import PostList from "./components/PostList";
+// import PostList from "./components/PostList";
 // import { UserProvider } from "./components/userContext";
 // import ClickCounterTwo from "./components/ClickCounterTwo";
 // import Counter1 from "./components/Counter1";
@@ -149,7 +150,8 @@ function App() {
       {/* <UserProvider value="maniram">
         <ComponentC/>
       </UserProvider> */}
-      <PostList/>
+      {/* <PostList/> */}
+      <PostForm/>
     </div>
   );
 }
