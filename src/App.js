@@ -145,9 +145,9 @@ function App() {
       <Counter1 render={(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}/> */}
       {/* <Counter1>{(count,incrementCount)=><ClickCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1> */}
       {/* <Counter1>{(count,incrementCount)=><HoverCounterTwo count={count} incrementCount={incrementCount}/>}</Counter1> */}
-      <UserProvider value="maniram">
+      {/* <UserProvider value="maniram"> */}
         <ComponentC/>
-      </UserProvider>
+      {/* </UserProvider> */}
     </div>
   );
 }
